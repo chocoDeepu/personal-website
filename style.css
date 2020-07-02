@@ -20,6 +20,9 @@ section{
     color: deeppink;
     font-weight: 900;
 }
+section .para{
+    margin-bottom: 30px;
+}
 .button{
     text-decoration: none;
     background-image: linear-gradient(45deg, tomato, deeppink);
