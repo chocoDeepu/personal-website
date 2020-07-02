@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 2%;  
+}
+section{
+    height: 600px;
+    padding-bottom: 150px;
+}
+.banner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+.name-highlight{
+    color: deeppink;
+    font-weight: 900;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, tomato, deeppink);
+    padding: 10px 30px;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+}
+.half-width img{
+    width: 100%;
+}
+.bio-bg{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.header{
+    text-align: center;
+}
+.work-bg{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;  
+}
+.work-pic img{
+    height: 100%;
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    padding-top: 4%;
+}
+footer{
+    padding-bottom: 100px;
+}
+.bg-footer{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+}
+.footer-half{
+    text-align: center;
+    height: 40%;
+    padding-top: 5%;
+}
+.footer-half .footer-button{
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, tomato, deeppink);
+    height:50px;
+    width: 280px;;
+    padding: 25px 80px;
+    
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+}
+.copy-right{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+}
